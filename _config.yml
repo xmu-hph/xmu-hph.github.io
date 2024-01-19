@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: HuPenghui # the main title
 
-tagline: Learn to study,learn to code # it will display as the sub-title
+tagline: Try to learn,try to use # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
