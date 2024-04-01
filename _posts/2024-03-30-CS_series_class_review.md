@@ -46,3 +46,7 @@ $$
 $$
 
 We can change the sequence of the factor in above equation \eqref{eq:factor_resequence}.
+
+TRPO:Cause we use the value function to evaluate the total return,so we can get a different equation for the relation between $R(\pi)$ and $R(\pi_0)$
+
+![trpo](trpo1.png){: w="400" h="300"}
