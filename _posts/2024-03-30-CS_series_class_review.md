@@ -50,3 +50,5 @@ We can change the sequence of the factor in above equation \eqref{eq:factor_rese
 TRPO:Cause we use the value function to evaluate the total return,so we can get a different equation for the relation between $R(\pi)$ and $R(\pi_0)$
 
 ![trpo](trpo1.png){: w="400" h="300"}
+
+but the trace of new $\pi$ we can't obtain,we can obtain the trace of old $\pi$,so trpo try to use only one step new $\pi$ and all others old $\pi$, importance sample original need all step to be decided by new $\pi$,but we take away off,only one step new $\pi$,this is not the return of new $\pi$,but satisfy the first order requirements.
