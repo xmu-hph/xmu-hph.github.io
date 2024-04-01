@@ -1,15 +1,15 @@
 ---
-title: CS系列课程总结
+title: CS series class review
 date: 2024-03-30 16:01:00 +0800
-categories: [tools, notes]
+categories: [tools,notes]
 tags: [tools]     # TAG names should always be lowercase
 math: true
 mermaid: true
-img_path: /commons/2024-03-30-CS系列课程总结/
+img_path: /commons/2024-03-30-CS_series_class_review/
 author: hupenghui
 ---
 
-## 强化学习基础
+## basics for reinforcement learning
 
 $$
 \begin{equation}
@@ -18,7 +18,7 @@ $$
 \end{equation}
 $$
 
-\eqref{eq:series} 对于回报均值的计算采用了将回报分解为奖励的方式 $r(\tau)=\sum_{i} r(s_i,a_i)$:
+We can decompose the return into reward in every step : $r(\tau)=\sum_{i} r(s_i,a_i)$,In the way we can calculate the mean of every reward: \eqref{eq:series} .
 
 $$
 \begin{equation}
